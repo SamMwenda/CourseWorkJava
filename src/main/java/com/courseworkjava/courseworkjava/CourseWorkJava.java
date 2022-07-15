@@ -34,6 +34,26 @@ public class CourseWorkJava {
         System.out.println();
         CheckerBoard checkerBoard = new CheckerBoard();
         checkerBoard.checkerBoard();
+        System.out.println("<<<<<<<<<<<<<<<____________>>>>>>>>>>>>>>>>");
+        System.out.println();
+        ReverseString reverseString = new ReverseString();
+        reverseString.reverseString();
+        System.out.println("<<<<<<<<<<<<<<<____________>>>>>>>>>>>>>>>>");
+        System.out.println();
+        TestPalindrome testPalindrome = new TestPalindrome();
+        testPalindrome.isPalindrome();
+        System.out.println("<<<<<<<<<<<<<<<____________>>>>>>>>>>>>>>>>");
+        System.out.println();
+        GradesAverage gradesAverage = new GradesAverage();
+        gradesAverage.gradesAverage();
+        System.out.println("<<<<<<<<<<<<<<<____________>>>>>>>>>>>>>>>>");
+        System.out.println();
+        CircleComputation circleComputation = new CircleComputation();
+        circleComputation.circleComputation();
+        System.out.println("<<<<<<<<<<<<<<<____________>>>>>>>>>>>>>>>>");
+        System.out.println();
+        NumberGuess numberGuess = new NumberGuess();
+        numberGuess.numberGuess();
         
     }
 }
